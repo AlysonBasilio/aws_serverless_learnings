@@ -1,3 +1,7 @@
 credentials.csv
+*/credentials
 freetieracc.txt
+
 terraform*
+*/.terraform
+!*.tfstate
