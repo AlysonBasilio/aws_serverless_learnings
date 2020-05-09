@@ -1,4 +1,4 @@
-# First Example: Creating a lambda function
+# First Example: Creating an AWS lambda function using terraform
 
 ```
 zip function.zip index.js

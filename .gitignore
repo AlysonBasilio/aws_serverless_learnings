@@ -5,3 +5,5 @@ freetieracc.txt
 terraform*
 */.terraform
 !*.tfstate
+
+*/node_modules
