@@ -1,6 +1,5 @@
-# First Example: Creating an AWS lambda function using 
+# First Example: Creating an AWS lambda function using
 
-docker build -f ../Dockerfile.serverless --tag node-sls-aws .
 docker run --rm -v $(pwd):/app -v ~/.aws:/root/.aws --workdir /app -it node-sls-aws
 
 ```

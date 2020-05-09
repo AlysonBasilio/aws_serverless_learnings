@@ -36,3 +36,9 @@ To test your image:
 ```
 docker run --rm terraform-aws terraform --version
 ```
+
+## Setup Dockerized Serverless
+
+```
+docker build -f Dockerfile.serverless --tag node-sls-aws .
+```
