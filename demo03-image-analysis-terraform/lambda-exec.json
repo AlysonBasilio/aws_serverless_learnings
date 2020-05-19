@@ -1,0 +1,1 @@
+{"statusCode":500,"body":"Internal server error!","errorStack":"TypeError: Cannot destructure property 'imageUrl' of 'event.queryStringParameters' as it is undefined.\n    at Handler.main (/var/task/handler.js:63:15)\n    at Runtime.handleOnce (/var/runtime/Runtime.js:66:25)"}
