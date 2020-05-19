@@ -1,0 +1,5 @@
+# package directories
+.terraform
+
+# Serverless directories
+function.zip
