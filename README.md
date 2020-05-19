@@ -28,7 +28,7 @@ unzip terraform_"$version"_linux_amd64.zip
 Now, build the terraform docker image that you will be using in our tasks
 
 ```
-docker build --tag terraform-aws .
+docker build --tag terraform-aws -f Dockerfile.terraform .
 ```
 
 To test your image:
