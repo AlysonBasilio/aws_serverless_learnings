@@ -1,6 +1,5 @@
 provider "aws" {
-  region                  = "us-east-1"
-  shared_credentials_file = "/app/credentials"
+  region = "us-east-1"
 }
 
 resource "aws_iam_role" "example_lambda_role" {
@@ -32,4 +31,3 @@ resource "aws_lambda_function" "hello_cli" {
 
   runtime = "nodejs12.x"
 }
- 
