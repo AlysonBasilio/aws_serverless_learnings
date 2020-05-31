@@ -1,0 +1,23 @@
+{
+  "name": "lambda-environment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "invoke": "sls invoke -f commit-message-scheduler --log",
+    "invoke-local:qa": "sls invoke local --stage qa -f commit-message-scheduler --log",
+    "invoke-local:prod": "sls invoke local  --stage prod -f commit-message-scheduler --log",
+    "deploy:qa": "sls deploy --stage qa",
+    "deploy:prod": "sls deploy --stage prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.686.0",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "env-var": "^6.1.1"
+  }
+}
