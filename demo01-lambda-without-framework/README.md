@@ -1,4 +1,4 @@
-# First Example: Creating an AWS lambda function using terraform
+# Demo 01: Creating an AWS Node Lambda Function using Terraform
 
 docker run --rm -v $(pwd):/app -v ~/.aws:/root/.aws --workdir /app -it terraform-aws
 
